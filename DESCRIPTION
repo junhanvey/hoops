@@ -1,0 +1,19 @@
+Package: hoops
+Title: Differing functions for the college basketball data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jun", "Hanvey", , "junhanveyyy@gmail.com", role = c("aut", "cre"))
+Description: This package contains functions to calculate a teams win/loss record and functions to graph relevant basketball data
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    ggplot2,
+    R(>= 3.5),
+    tidyverse,
+    dplyr
+Imports: 
+    magrittr,
+    ggplot2
+LazyData: true
